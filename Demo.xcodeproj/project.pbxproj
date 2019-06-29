@@ -99,13 +99,9 @@
 		D23AE75322C812A900910536 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				D23AE75422C812A900910536 /* AppDelegate.swift */,
-				D23AE75622C812A900910536 /* ViewController.swift */,
-				D23AE75822C812A900910536 /* Main.storyboard */,
-				D23AE75E22C812A900910536 /* Assets.xcassets */,
-				D23AE76022C812A900910536 /* LaunchScreen.storyboard */,
-				D23AE76322C812A900910536 /* Info.plist */,
-				D23AE75B22C812A900910536 /* Demo.xcdatamodeld */,
+				D23AE78522C812B800910536 /* Assets */,
+				D23AE78622C812C800910536 /* Source */,
+				D23AE78722C812D500910536 /* Supporting Files */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -126,6 +122,58 @@
 				D23AE77922C812A900910536 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		D23AE78522C812B800910536 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D23AE75E22C812A900910536 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D23AE78622C812C800910536 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D23AE78822C812E400910536 /* App */,
+				D23AE78922C8130B00910536 /* Model */,
+				D23AE78A22C8143C00910536 /* Modules */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D23AE78722C812D500910536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23AE76322C812A900910536 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23AE78822C812E400910536 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D23AE75422C812A900910536 /* AppDelegate.swift */,
+				D23AE76022C812A900910536 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D23AE78922C8130B00910536 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D23AE75B22C812A900910536 /* Demo.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D23AE78A22C8143C00910536 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D23AE75622C812A900910536 /* ViewController.swift */,
+				D23AE75822C812A900910536 /* Main.storyboard */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 685Y94L3PT;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 685Y94L3PT;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
