@@ -15,6 +15,10 @@
 		D23AE76222C812A900910536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23AE76022C812A900910536 /* LaunchScreen.storyboard */; };
 		D23AE76D22C812A900910536 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AE76C22C812A900910536 /* DemoTests.swift */; };
 		D23AE77822C812A900910536 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AE77722C812A900910536 /* DemoUITests.swift */; };
+		D2DA8715232B72A4005C6D09 /* NSRegularExpression+Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */; };
+		D2DA8717232B72F9005C6D09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8716232B72F9005C6D09 /* User.swift */; };
+		D2DA871D232B7414005C6D09 /* RandomUserHttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA871B232B7414005C6D09 /* RandomUserHttpService.swift */; };
+		D2DA871E232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA871C232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D23AE77322C812A900910536 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23AE77722C812A900910536 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		D23AE77922C812A900910536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Substrings.swift"; sourceTree = "<group>"; };
+		D2DA8716232B72F9005C6D09 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D2DA871B232B7414005C6D09 /* RandomUserHttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserHttpService.swift; sourceTree = "<group>"; };
+		D2DA871C232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserHttpServiceResponseDecoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				D23AE78822C812E400910536 /* App */,
+				D2DA8713232B72A4005C6D09 /* Extensions */,
 				D23AE78922C8130B00910536 /* Model */,
 				D23AE78A22C8143C00910536 /* Modules */,
+				D2DA8719232B7414005C6D09 /* Services */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -162,7 +172,8 @@
 		D23AE78922C8130B00910536 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D23AE75B22C812A900910536 /* Demo.xcdatamodeld */,
+				D2DA8718232B7303005C6D09 /* CoreData */,
+				D2DA8716232B72F9005C6D09 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +185,39 @@
 				D23AE75822C812A900910536 /* Main.storyboard */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		D2DA8713232B72A4005C6D09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2DA8718232B7303005C6D09 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D23AE75B22C812A900910536 /* Demo.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D2DA8719232B7414005C6D09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA871A232B7414005C6D09 /* RandomUser */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D2DA871A232B7414005C6D09 /* RandomUser */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA871B232B7414005C6D09 /* RandomUserHttpService.swift */,
+				D2DA871C232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift */,
+			);
+			path = RandomUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +352,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23AE75D22C812A900910536 /* Demo.xcdatamodeld in Sources */,
+				D2DA871D232B7414005C6D09 /* RandomUserHttpService.swift in Sources */,
+				D2DA8715232B72A4005C6D09 /* NSRegularExpression+Substrings.swift in Sources */,
 				D23AE75722C812A900910536 /* ViewController.swift in Sources */,
+				D2DA8717232B72F9005C6D09 /* User.swift in Sources */,
 				D23AE75522C812A900910536 /* AppDelegate.swift in Sources */,
+				D2DA871E232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
