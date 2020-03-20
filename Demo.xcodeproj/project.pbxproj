@@ -13,6 +13,14 @@
 		D23AE76222C812A900910536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23AE76022C812A900910536 /* LaunchScreen.storyboard */; };
 		D23AE76D22C812A900910536 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AE76C22C812A900910536 /* DemoTests.swift */; };
 		D23AE77822C812A900910536 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AE77722C812A900910536 /* DemoUITests.swift */; };
+		D24A3371232D3CE7002B6449 /* QuadTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3370232D3CE7002B6449 /* QuadTreeNode.swift */; };
+		D24A3373232D3D6C002B6449 /* QuadTreeBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3372232D3D6C002B6449 /* QuadTreeBounds.swift */; };
+		D24A3375232D3EA8002B6449 /* QuadTreeDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3374232D3EA8002B6449 /* QuadTreeDataPoint.swift */; };
+		D24A3377232E9465002B6449 /* QuadTreeNodeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3376232E9465002B6449 /* QuadTreeNodeSpec.swift */; };
+		D24A337A232F072E002B6449 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24A3379232F072E002B6449 /* MapView.xib */; };
+		D24A337C232F07B3002B6449 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A337B232F07B3002B6449 /* MapViewController.swift */; };
+		D24A337E232F11DF002B6449 /* MapViewDelegateSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A337D232F11DF002B6449 /* MapViewDelegateSplitter.swift */; };
+		D24A3380232F1283002B6449 /* MapAnnotationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A337F232F1283002B6449 /* MapAnnotationManager.swift */; };
 		D2DA8715232B72A4005C6D09 /* NSRegularExpression+Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */; };
 		D2DA8717232B72F9005C6D09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8716232B72F9005C6D09 /* User.swift */; };
 		D2DA871D232B7414005C6D09 /* RandomUserHttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA871B232B7414005C6D09 /* RandomUserHttpService.swift */; };
@@ -51,6 +59,14 @@
 		D23AE77322C812A900910536 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23AE77722C812A900910536 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		D23AE77922C812A900910536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24A3370232D3CE7002B6449 /* QuadTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeNode.swift; sourceTree = "<group>"; };
+		D24A3372232D3D6C002B6449 /* QuadTreeBounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeBounds.swift; sourceTree = "<group>"; };
+		D24A3374232D3EA8002B6449 /* QuadTreeDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeDataPoint.swift; sourceTree = "<group>"; };
+		D24A3376232E9465002B6449 /* QuadTreeNodeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeNodeSpec.swift; sourceTree = "<group>"; };
+		D24A3379232F072E002B6449 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		D24A337B232F07B3002B6449 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D24A337D232F11DF002B6449 /* MapViewDelegateSplitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDelegateSplitter.swift; sourceTree = "<group>"; };
+		D24A337F232F1283002B6449 /* MapAnnotationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationManager.swift; sourceTree = "<group>"; };
 		D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Substrings.swift"; sourceTree = "<group>"; };
 		D2DA8716232B72F9005C6D09 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D2DA871B232B7414005C6D09 /* RandomUserHttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserHttpService.swift; sourceTree = "<group>"; };
@@ -119,6 +135,7 @@
 			children = (
 				D23AE76C22C812A900910536 /* DemoTests.swift */,
 				D23AE76E22C812A900910536 /* Info.plist */,
+				D24A3376232E9465002B6449 /* QuadTreeNodeSpec.swift */,
 			);
 			path = DemoTests;
 			sourceTree = "<group>";
@@ -181,9 +198,32 @@
 		D23AE78A22C8143C00910536 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D24A3378232F06D0002B6449 /* Map */,
+				D24A336F232D3CCE002B6449 /* QuadTree */,
 				D2DA871F232B75BA005C6D09 /* Home */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		D24A336F232D3CCE002B6449 /* QuadTree */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3370232D3CE7002B6449 /* QuadTreeNode.swift */,
+				D24A3374232D3EA8002B6449 /* QuadTreeDataPoint.swift */,
+				D24A3372232D3D6C002B6449 /* QuadTreeBounds.swift */,
+			);
+			path = QuadTree;
+			sourceTree = "<group>";
+		};
+		D24A3378232F06D0002B6449 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3379232F072E002B6449 /* MapView.xib */,
+				D24A337B232F07B3002B6449 /* MapViewController.swift */,
+				D24A337D232F11DF002B6449 /* MapViewDelegateSplitter.swift */,
+				D24A337F232F1283002B6449 /* MapAnnotationManager.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		D2DA8713232B72A4005C6D09 /* Extensions */ = {
@@ -333,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23AE76222C812A900910536 /* LaunchScreen.storyboard in Resources */,
+				D24A337A232F072E002B6449 /* MapView.xib in Resources */,
 				D23AE75F22C812A900910536 /* Assets.xcassets in Resources */,
 				D2DA8727232B75BA005C6D09 /* HomeView.storyboard in Resources */,
 			);
@@ -359,12 +400,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24A337E232F11DF002B6449 /* MapViewDelegateSplitter.swift in Sources */,
+				D24A337C232F07B3002B6449 /* MapViewController.swift in Sources */,
 				D23AE75D22C812A900910536 /* Demo.xcdatamodeld in Sources */,
 				D2DA871D232B7414005C6D09 /* RandomUserHttpService.swift in Sources */,
+				D24A3380232F1283002B6449 /* MapAnnotationManager.swift in Sources */,
 				D2DA8715232B72A4005C6D09 /* NSRegularExpression+Substrings.swift in Sources */,
 				D2DA8726232B75BA005C6D09 /* HomeViewController.swift in Sources */,
 				D2DA8717232B72F9005C6D09 /* User.swift in Sources */,
 				D23AE75522C812A900910536 /* AppDelegate.swift in Sources */,
+				D24A3371232D3CE7002B6449 /* QuadTreeNode.swift in Sources */,
+				D24A3375232D3EA8002B6449 /* QuadTreeDataPoint.swift in Sources */,
+				D24A3373232D3D6C002B6449 /* QuadTreeBounds.swift in Sources */,
 				D2DA871E232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23AE76D22C812A900910536 /* DemoTests.swift in Sources */,
+				D24A3377232E9465002B6449 /* QuadTreeNodeSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
