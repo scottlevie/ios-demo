@@ -219,7 +219,9 @@ private extension User.Location {
 
     private static func timezone(forOffsetString offsetString: String) throws -> TimeZone {
 
-        guard let matches = self.offsetRegex.substrings(in: offsetString) else {
+        let matches = self.offsetRegex.substrings(in: offsetString)
+
+        if matches.isEmpty {
             // TODO: Throw a more meaningful error
             throw NSError(domain: ERROR_DOMAIN, code: -1, userInfo: [
                 NSLocalizedDescriptionKey: "Offset string '\(offsetString)' does not match the expected format '\(self.offsetRegex.pattern)'"
@@ -244,7 +246,7 @@ private extension User.Location {
     }
 
     /// "+7:00"
-    private static let offsetRegex: NSRegularExpression = try! .init(pattern: #"^(\+|-)?(\d+):(\d+)$"#, options: [])
+    private static let offsetRegex = try! Regex(#"^(\+|-)?(\d+):(\d+)$"#)
 }
 
 

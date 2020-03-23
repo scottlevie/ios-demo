@@ -20,13 +20,16 @@
 		D24A337C232F07B3002B6449 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A337B232F07B3002B6449 /* MapViewController.swift */; };
 		D24A337E232F11DF002B6449 /* MapViewDelegateSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A337D232F11DF002B6449 /* MapViewDelegateSplitter.swift */; };
 		D24A3380232F1283002B6449 /* MapAnnotationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A337F232F1283002B6449 /* MapAnnotationManager.swift */; };
-		D2DA8715232B72A4005C6D09 /* NSRegularExpression+Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */; };
 		D2DA8717232B72F9005C6D09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8716232B72F9005C6D09 /* User.swift */; };
 		D2DA871D232B7414005C6D09 /* RandomUserHttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA871B232B7414005C6D09 /* RandomUserHttpService.swift */; };
 		D2DA871E232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA871C232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift */; };
 		D2DA8726232B75BA005C6D09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8720232B75BA005C6D09 /* HomeViewController.swift */; };
 		D2DA8727232B75BA005C6D09 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DA8721232B75BA005C6D09 /* HomeView.storyboard */; };
 		E5477F05242903A300B3466F /* UserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5477F04242903A300B3466F /* UserImageView.swift */; };
+		E5477F0B2429069F00B3466F /* NSTextCheckingResult+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5477F072429069F00B3466F /* NSTextCheckingResult+Convenience.swift */; };
+		E5477F0C2429069F00B3466F /* NSRegularExpression+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5477F082429069F00B3466F /* NSRegularExpression+Convenience.swift */; };
+		E5477F0F242906D200B3466F /* NSRegularExpression+SubstringsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5477F0E242906D200B3466F /* NSRegularExpression+SubstringsSpec.swift */; };
+		E5477F1124291E0700B3466F /* NSTextCheckingResult+GroupStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5477F1024291E0700B3466F /* NSTextCheckingResult+GroupStringSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,13 +69,16 @@
 		D24A337B232F07B3002B6449 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D24A337D232F11DF002B6449 /* MapViewDelegateSplitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDelegateSplitter.swift; sourceTree = "<group>"; };
 		D24A337F232F1283002B6449 /* MapAnnotationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationManager.swift; sourceTree = "<group>"; };
-		D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Substrings.swift"; sourceTree = "<group>"; };
 		D2DA8716232B72F9005C6D09 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D2DA871B232B7414005C6D09 /* RandomUserHttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserHttpService.swift; sourceTree = "<group>"; };
 		D2DA871C232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserHttpServiceResponseDecoder.swift; sourceTree = "<group>"; };
 		D2DA8720232B75BA005C6D09 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D2DA8721232B75BA005C6D09 /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 		E5477F04242903A300B3466F /* UserImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImageView.swift; sourceTree = "<group>"; };
+		E5477F072429069F00B3466F /* NSTextCheckingResult+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextCheckingResult+Convenience.swift"; sourceTree = "<group>"; };
+		E5477F082429069F00B3466F /* NSRegularExpression+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Convenience.swift"; sourceTree = "<group>"; };
+		E5477F0E242906D200B3466F /* NSRegularExpression+SubstringsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+SubstringsSpec.swift"; sourceTree = "<group>"; };
+		E5477F1024291E0700B3466F /* NSTextCheckingResult+GroupStringSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextCheckingResult+GroupStringSpec.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,8 @@
 			children = (
 				D23AE76E22C812A900910536 /* Info.plist */,
 				D24A3376232E9465002B6449 /* QuadTreeNodeSpec.swift */,
+				E5477F0E242906D200B3466F /* NSRegularExpression+SubstringsSpec.swift */,
+				E5477F1024291E0700B3466F /* NSTextCheckingResult+GroupStringSpec.swift */,
 			);
 			path = DemoTests;
 			sourceTree = "<group>";
@@ -229,7 +237,8 @@
 		D2DA8713232B72A4005C6D09 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D2DA8714232B72A4005C6D09 /* NSRegularExpression+Substrings.swift */,
+				E5477F082429069F00B3466F /* NSRegularExpression+Convenience.swift */,
+				E5477F072429069F00B3466F /* NSTextCheckingResult+Convenience.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -409,12 +418,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24A337E232F11DF002B6449 /* MapViewDelegateSplitter.swift in Sources */,
+				E5477F0C2429069F00B3466F /* NSRegularExpression+Convenience.swift in Sources */,
+				E5477F0B2429069F00B3466F /* NSTextCheckingResult+Convenience.swift in Sources */,
 				E5477F05242903A300B3466F /* UserImageView.swift in Sources */,
 				D24A337C232F07B3002B6449 /* MapViewController.swift in Sources */,
 				D23AE75D22C812A900910536 /* Demo.xcdatamodeld in Sources */,
 				D2DA871D232B7414005C6D09 /* RandomUserHttpService.swift in Sources */,
 				D24A3380232F1283002B6449 /* MapAnnotationManager.swift in Sources */,
-				D2DA8715232B72A4005C6D09 /* NSRegularExpression+Substrings.swift in Sources */,
 				D2DA8726232B75BA005C6D09 /* HomeViewController.swift in Sources */,
 				D2DA8717232B72F9005C6D09 /* User.swift in Sources */,
 				D23AE75522C812A900910536 /* AppDelegate.swift in Sources */,
@@ -429,7 +439,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5477F0F242906D200B3466F /* NSRegularExpression+SubstringsSpec.swift in Sources */,
 				D24A3377232E9465002B6449 /* QuadTreeNodeSpec.swift in Sources */,
+				E5477F1124291E0700B3466F /* NSTextCheckingResult+GroupStringSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
