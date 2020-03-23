@@ -27,6 +27,7 @@
 		D2DA871E232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA871C232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift */; };
 		D2DA8726232B75BA005C6D09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8720232B75BA005C6D09 /* HomeViewController.swift */; };
 		D2DA8727232B75BA005C6D09 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DA8721232B75BA005C6D09 /* HomeView.storyboard */; };
+		E5477F05242903A300B3466F /* UserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5477F04242903A300B3466F /* UserImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D2DA871C232B7414005C6D09 /* RandomUserHttpServiceResponseDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserHttpServiceResponseDecoder.swift; sourceTree = "<group>"; };
 		D2DA8720232B75BA005C6D09 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D2DA8721232B75BA005C6D09 /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		E5477F04242903A300B3466F /* UserImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,9 +200,10 @@
 		D23AE78A22C8143C00910536 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D2DA871F232B75BA005C6D09 /* Home */,
 				D24A3378232F06D0002B6449 /* Map */,
 				D24A336F232D3CCE002B6449 /* QuadTree */,
-				D2DA871F232B75BA005C6D09 /* Home */,
+				E5477F03242903A300B3466F /* UserView */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -266,6 +269,14 @@
 				D2DA8721232B75BA005C6D09 /* HomeView.storyboard */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		E5477F03242903A300B3466F /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				E5477F04242903A300B3466F /* UserImageView.swift */,
+			);
+			path = UserView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24A337E232F11DF002B6449 /* MapViewDelegateSplitter.swift in Sources */,
+				E5477F05242903A300B3466F /* UserImageView.swift in Sources */,
 				D24A337C232F07B3002B6449 /* MapViewController.swift in Sources */,
 				D23AE75D22C812A900910536 /* Demo.xcdatamodeld in Sources */,
 				D2DA871D232B7414005C6D09 /* RandomUserHttpService.swift in Sources */,
@@ -511,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -566,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
