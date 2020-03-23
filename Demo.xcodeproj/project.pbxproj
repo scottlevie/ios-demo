@@ -11,7 +11,6 @@
 		D23AE75D22C812A900910536 /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D23AE75B22C812A900910536 /* Demo.xcdatamodeld */; };
 		D23AE75F22C812A900910536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23AE75E22C812A900910536 /* Assets.xcassets */; };
 		D23AE76222C812A900910536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23AE76022C812A900910536 /* LaunchScreen.storyboard */; };
-		D23AE76D22C812A900910536 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AE76C22C812A900910536 /* DemoTests.swift */; };
 		D23AE77822C812A900910536 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AE77722C812A900910536 /* DemoUITests.swift */; };
 		D24A3371232D3CE7002B6449 /* QuadTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3370232D3CE7002B6449 /* QuadTreeNode.swift */; };
 		D24A3373232D3D6C002B6449 /* QuadTreeBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3372232D3D6C002B6449 /* QuadTreeBounds.swift */; };
@@ -55,7 +54,6 @@
 		D23AE76122C812A900910536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D23AE76322C812A900910536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D23AE76822C812A900910536 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D23AE76C22C812A900910536 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
 		D23AE76E22C812A900910536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D23AE77322C812A900910536 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23AE77722C812A900910536 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 		D23AE76B22C812A900910536 /* DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D23AE76C22C812A900910536 /* DemoTests.swift */,
 				D23AE76E22C812A900910536 /* Info.plist */,
 				D24A3376232E9465002B6449 /* QuadTreeNodeSpec.swift */,
 			);
@@ -432,7 +429,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D23AE76D22C812A900910536 /* DemoTests.swift in Sources */,
 				D24A3377232E9465002B6449 /* QuadTreeNodeSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
